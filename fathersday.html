@@ -1,13 +1,11 @@
 <html>
 <head>
 <title>Happy Fathers Day</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<meta name="KeyWords" content="JavaScript, DHTML, Animation, Fireworks, 4th July, independence day, Guy Fawkes, November 5th">
 </head>
 <style>
      /* The animation code */
     @keyframes example {
-        from {font-size: 0px;}
+        from {font-size: 30px;}
         to {font-size: 100px}
     }
 
@@ -19,7 +17,7 @@
         background-color: red;*/
         animation-name: example;
         animation-duration: 4s;
-        animation-iteration-count: infinite;
+        animation-iteration-count: 2;
         animation-direction: alternate;
     } 
 </style>
@@ -27,15 +25,14 @@
 
 <!-- <A HREF="#" onClick="myFW1.stop();myFW2.stop();myFW3.stop();myFW4.stop();return false;">STOP</A><br>
 <A HREF="#" onClick="myFW1.start();myFW2.start();myFW3.start();myFW4.start();return false;">START</A><br> -->
-<div></div>
+<div style="height: 200px">
+    <audio controls autoplay="true">
+        <source src="audio1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio> 
     <h1>Happy Fathers Day</h1>
+</div>
 <SCRIPT TYPE="text/javascript">
-/**
-  * You may use this code for free on any web page provided that 
-  * these comment lines and the following credit remain in the code.
-  * Cross Browser Fireworks from http://www.javascript-fx.com
-  */
-/*************************************************/
 if(!window.JSFX) JSFX=new Object();
 
 if(!JSFX.createLayer)
